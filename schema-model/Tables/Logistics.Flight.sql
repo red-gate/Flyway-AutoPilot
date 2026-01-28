@@ -7,7 +7,8 @@ CREATE TABLE [Logistics].[Flight]
 [DepartureTime] [datetime] NOT NULL,
 [ArrivalTime] [datetime] NOT NULL,
 [Price] [decimal] (10, 2) NOT NULL,
-[AvailableSeats] [int] NOT NULL
+[AvailableSeats] [int] NOT NULL,
+  Test
 )
 GO
 ALTER TABLE [Logistics].[Flight] ADD CONSTRAINT [PK__Flight__8A9E148E9A8ED149] PRIMARY KEY CLUSTERED ([FlightID])
